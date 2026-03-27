@@ -19,6 +19,9 @@ jobs:
     name: docker-compose-test
     needs: login-docker
     steps:
+      - name: CHECKOUT THE CODE
+        uses: actions/checkout@v4
+
       - name: BUILD DOCKER COMPOSE
         run: docker compose build
 
