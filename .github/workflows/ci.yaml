@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: login-docker
     steps:
-      - name: DOCKER LOGIN
+      - name: DOCKER LOGIN 
         uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
