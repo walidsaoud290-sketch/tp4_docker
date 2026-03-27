@@ -1,7 +1,7 @@
 name: DOCKER COMPOSE UTIL
 on:
   push:
-    branches: 
+    branches:  
       - main
 
 jobs:
